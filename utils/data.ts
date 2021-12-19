@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      slug: 'free-shirt',
       name: 'Free Shirt',
       category: 'Shirts',
       image: '/images/shirt1.jpg',
@@ -12,7 +13,8 @@ const data = {
       description: 'A popular shirt',
     },
     {
-      name: 'Free Shirt',
+      slug: 'fit-shirt',
+      name: 'Fit Shirt',
       category: 'Shirts',
       image: '/images/shirt1.jpg',
       price: 70,
@@ -23,7 +25,8 @@ const data = {
       description: 'A popular shirt',
     },
     {
-      name: 'Free Shirt',
+      slug: 'slim-shirt',
+      name: 'Slim Shirt',
       category: 'Shirts',
       image: '/images/shirt1.jpg',
       price: 70,
@@ -34,6 +37,7 @@ const data = {
       description: 'A popular shirt',
     },
     {
+      slug: 'heavy-shirt',
       name: 'Heavy Shirt',
       category: 'Shirts',
       image: '/images/shirt2.jpg',
@@ -45,7 +49,8 @@ const data = {
       description: 'A popular shirt',
     },
     {
-      name: 'Slim Shirt',
+      slug: 'golf-shirt',
+      name: 'Golf Shirt',
       category: 'Shirts',
       image: '/images/shirt3.jpg',
       price: 70,
@@ -56,6 +61,7 @@ const data = {
       description: 'A popular shirt',
     },
     {
+      slug: 'classic-pants',
       name: 'Classic Pants',
       category: 'Pants',
       image: '/images/pants1.jpg',
@@ -67,7 +73,8 @@ const data = {
       description: 'A popular pants',
     },
     {
-      name: 'Golf Pants',
+      slug: 'heavy-pants',
+      name: 'Heavy Pants',
       category: 'Pants',
       image: '/images/pants2.jpg',
       price: 85,
@@ -78,6 +85,7 @@ const data = {
       description: 'A popular pants',
     },
     {
+      slug: 'fit-pants',
       name: 'Fit Pants',
       category: 'Pants',
       image: '/images/pants3.jpg',
